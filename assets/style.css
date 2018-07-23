@@ -4,7 +4,7 @@ header{
 	
 	width: 100%;
 	height: 100px;
-	background-color: grey;
+	background-color: transparent;
 	font-weight: normal;
 }
 
@@ -76,7 +76,7 @@ header{
 body{
 	padding: 0;
 	margin:0;
-	background: #fff url(http://themefuse.com/wp-content/uploads/2014/06/Header-Games-Zone.jpg);
+	background: #fff url(https://cdn.pixabay.com/photo/2012/02/26/10/55/abstract-17065_960_720.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
