@@ -1,11 +1,12 @@
 ---
 layout: page
 ---
+ 
+ {% for post in site.posts %}
+
 <div class="container">
 
 	<h1>Listado de entradas del blog</h1>
- 
- {% for post in site.posts %}
   
 	<div>
   	
@@ -14,8 +15,10 @@ layout: page
 	  	 <p>{{ post.excerpt }}</p>
 	    	<a href="{{ post.url | prepend: site.baseurl }}">Leer más</a>	
 	
-	</div>	 
+	</div>
+
+</div>	 
 	
 {% endfor %}  
 
-</div>
+
