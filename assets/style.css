@@ -28,6 +28,7 @@ body{
 
 .menu_header{
 	text-align: right;
+	margin-right: 18px;
 }
 
 .menu_header ul li{
