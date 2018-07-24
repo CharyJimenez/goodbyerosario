@@ -39,6 +39,10 @@ body{
 
 }
 
+.pie ul li{
+	display: inline-block;
+}
+
 .pie ul li a{
 	/*background-color:rgba(0, 0, 0, 0.5);*/
 	background-color: black;
