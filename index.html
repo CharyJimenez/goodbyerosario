@@ -4,19 +4,17 @@ layout: page
  
  {% for post in site.posts %}
 
-
-
-	<h1>Listado de entradas del blog</h1>
-  
 	<div class="container">
+		
+		<h1>Listado de entradas del blog</h1>
   	
 	  	<h2>{{ post.title }}</h2>
 
-	  	 <p>{{ post.excerpt }}</p>
-	    	<a href="{{ post.url | prepend: site.baseurl }}">Leer más</a>	
+	  	<p>{{ post.excerpt }}</p>
+	    	
+	    <a href="{{ post.url | prepend: site.baseurl }}">Leer más</a>	
 	
 	</div>
-
 
 	
 {% endfor %}  
