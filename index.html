@@ -1,7 +1,13 @@
 ---
 layout: page
 ---
+ <div class="hero">
+	
+	<img src="img/fondo.jpg" alt="">
+		
+</div>
  
+
  {% for post in site.posts %}
 
 	<div class="container">
@@ -21,24 +27,7 @@ layout: page
 	
 {% endfor %}  
 
-<div class="container">
-	
-	<h2>Formulario de contacto</h2>	
 
-	<div class="form">
-	<form method="POST" action="https://formspree.io/ascendia.chary@gmail.com">
-		<input type="hidden" name="_language" value="es" />
-		<input type="text" name="nombre" placeholder="Nombre">
-		<input type="text" name="apellidos" placeholder="Apellido">	
-	  	<input type="email" name="email" placeholder="introduce email">
-	  	<br>
-	  	<textarea name="message" placeholder="Tu mensaje"></textarea>
-	  	<br>
-	  	<button type="submit">Enviar</button>
-	</form>
-	</div>
-		
-</div>
 	
 	
 	<div class="form">
