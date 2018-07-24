@@ -47,6 +47,7 @@ body{
 .pie ul li{
 	display: inline-block;
 	margin-right: 12px;
+	padding: 10px 10px 10px 10px;
 }
 
 .pie ul li a{
